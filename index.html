@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+    <title>Library</title>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="header">
+            <h1>My Book Library</h1>
+            <p>This is a project for the Odin Project showcasing DOM manipulation and local storage</p>
+            <p>You can view my Github Repository <a href='https://github.com/Filtux/library'>here</a></p>
+        </div>
+        <div class="body">
+            <div class="userPanel">
+                <form>
+                    <div class="formEntry">
+                        <label for="inputTitle">Title</label>
+                        <input type="text" class="inputBox" id="inputTitle">
+                    </div>
+
+                    <div class="formEntry">
+                        <label for="inputAuthor">Author</label>
+                        <input type="text" class="inputBox" id="inputAuthor">
+                    </div>
+
+                    <div class="formEntry">
+                        <label for="inputPages">Pages</label>
+                        <input type="text" class="inputBox" id="inputPages">
+                    </div>
+
+                    <div class="formEntry">
+                        <label for="inputReadStatus">Read Status</label>
+                        <select name="Read" id="inputReadStatus" class="inputBox">
+                            <option value="inputRead">Read</option>
+                            <option value="inputNotRead">Not Read</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Submit" class="button-primary"></input>
+                </form>
+            </div>
+            <div class="tableContainer">
+                <table class="table">
+
+                </table>
+            </div>
+
+        <div class="footer">
+            <p>-Joe Matthews-</p>
+        </div>
+
+</body>
+</html>

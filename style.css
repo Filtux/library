@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+
+}
+
+.main {
+    background-color: whitesmoke;
+    min-height: 100%;
+    height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.userPanel {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+}
+
+.formEntry {
+    display: flex;
+    flex-direction: column;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+}
+
+th, td{
+    padding: 20px 100px 20px 0;
+    text-align: left;
+    border-bottom: 1px solid black
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
